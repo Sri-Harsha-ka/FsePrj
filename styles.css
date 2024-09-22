@@ -1,0 +1,207 @@
+/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #A15E1B; 
+    color: white;
+    padding: 20px 40px;
+}
+
+main{
+    background: #A15E1B ;
+    padding-bottom: 3vw;
+}
+
+.titleOfWeb{
+    font-size: 2vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+    color: beige;
+}
+/* Header Section */
+.header-section {
+    display: flex;
+    justify-content: space-between;
+    /* padding: 20px 40px; */
+}
+
+.logo img {
+    max-width: 150px;
+}
+
+.menu-icon img {
+    max-width: 30px;
+}
+
+/* Hero Section */
+.hero-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 40px;
+    background: url("https://www.infosys.com/content/dam/infosys-web/en/global-resource/responsive/newdesign/digital-capabilities-lead.png");
+    background-repeat: no-repeat;
+    background-size: 75%;
+    background-position: 375px 0 ;
+}
+
+.text-content {
+    flex: 1;
+    max-width: 600px;
+}
+
+.text-content h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.text-content p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+
+.explore-button {
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 10px 30px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    margin-bottom: 40px;
+    display: inline-block;
+}
+
+.case-studies {
+    display: flex;
+    justify-content: space-between;
+}
+
+.case-item h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.case-item a {
+    color: white;
+    text-decoration: underline;
+    font-size: 1rem;
+}
+
+.menu-icon{
+    filter: invert(100%);
+}
+
+/* .project-item,
+.employee-item,
+.card {
+    margin-top: 1vw;
+    background-color: #a1701b;
+    border: 2px solid #a1701b; 
+    padding: 1.5rem;
+    margin-bottom: 1em;
+    border-radius: 10px;
+} */
+
+.CardFlex{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0vw 5vw;
+    background-color: #a1701b;
+    border: 2px solid #a1701b;
+    margin-top: 1vw;
+    padding: 1.5rem;
+    margin-bottom: 1em;
+}
+
+/* .CardColor{
+    background-color: #a1701b;
+    border: 2px solid #a1701b;
+} */
+
+.titleSec2{
+    font-size: 2vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+    color: beige;
+}
+
+.progress-bar {
+    background-color: #cccccc;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 100%;
+    height: 20px;
+    margin-top: 10px;
+}
+
+.progress-bar-fill {
+    background-color: #0084ff;
+    height: 100%;
+}
+
+
+
+.about-section {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+}
+
+.about-header {
+    margin-bottom: 50px;
+}
+
+.about-us-title {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.about-us-description {
+    font-size: 1.5rem;
+    color: #ffffff;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.stat-item {
+    flex: 1;
+    padding: 20px;
+}
+
+.stat-number {
+    display: block;
+    font-size: 3rem;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.stat-text {
+    font-size: 1rem;
+    color: #ffffff;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .stats {
+        flex-direction: column;
+    }
+
+    .stat-item {
+        margin-bottom: 20px;
+    }
+}
